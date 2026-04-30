@@ -178,6 +178,17 @@ footer {
     padding: 20px;
     margin-top: 40px;
     color: #fff4e1;
+    text-align: left;
+}
+
+footer a {
+  color: #fff4e1;
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer a:hover {
+  color:#fff4e16c;
 }
 
 /* navbar */
