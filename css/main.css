@@ -73,13 +73,6 @@ h1 {
 }
 
 /* needs to be put the the child you want to expand */
-main {
-    background-image: url(../img/creek.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    flex: 1;
-}
 
 .blue-skewt-container {
     display: flex;
