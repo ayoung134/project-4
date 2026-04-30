@@ -184,6 +184,13 @@ footer a:hover {
   color:#fff4e16c;
 }
 
+@media (max-width: 600px) {
+  footer a {
+    padding: 0 8px;
+    font-size: 0.9rem;
+  }
+}
+
 /* navbar */
 * {
   /* margin: 0; */
