@@ -171,30 +171,53 @@ h1 {
 
 /* Place CSS styles here */
 
+main {
+  flex: 1;
+}
+
 footer {
-    background: #242a64;
-    padding: 20px;
-    margin-top: 40px;
-    color: #fff4e1;
-    text-align: left;
+  /* background: #242a64;
+  color: #fff4e1;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: left; */
+
+  width: 100%;
+  background: #242a64;
+  color: #fff4e1;
+  padding: 20px;
+  /* margin-top: auto; */
+  background: #242a64;
+  color: #fff4e1;
+  padding: 20px;
+  width: 100%;
 }
 
 footer a {
   color: #fff4e1;
   text-decoration: none;
-  padding: 20px;
+  padding: 0 12px;
+  display: inline-block;
 }
 
 footer a:hover {
-  color:#fff4e16c;
+  color: #fff4e16c;
 }
 
-@media (max-width: 600px) {
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
+
   footer a {
-    padding: 0 8px;
-    font-size: 0.9rem;
+    display: block;
+    padding: 6px 0;
   }
 }
+
+
 
 /* navbar */
 * {
@@ -204,8 +227,13 @@ footer a:hover {
 }
 
 body {
-  background-color: #242a64;
+  /* background-color: #242a64;
   min-height: 100vh;
+  background: #ffff;
+  color: #242a64; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background: #ffff;
   color: #242a64;
 }
@@ -449,6 +477,10 @@ p {
 .about-row a:hover {
   text-decoration: none;
   color:#242a646b
+}
+
+.construction {
+  text-align: center;
 }
 
 

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('fonts/MyFont.ttf');
+}
+
+body {
+  margin: 0px;
+  background: #111;
+  background-image: url;
+  font-family: Arial, sans-serif;
+}
+
+.poster {
+  width: 800px;
+  height: 800px;
+  margin: 40px auto;
+  background-image: url('images/background.gif');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+}
+
+img {
+  filter: contrast(140%);
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #bbf0ff0c;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "itc-avant-garde-gothic-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #ff4400;
+  text-align: left;
+  font-size: 55px;
+  line-height: 52px;
+}
+
+h2 {
+  font-family: "dunhill-script", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  color: #ff4400;
+  font-size: 100px;
+  line-height: 5px;
+  baseline-shift: 20px;
+  margin-top: -5px;
+  padding-left: 8px;
+  text-align: center;
+}
+
+p {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  font-size: 13;
+  color: #ff4400;
+  text-align: right;
+  margin-top: -45px;
+  margin-bottom: 120px;
+}
+a:hover {
+  color: #39452e;
+  background-color: #ff44002e;
+  border: 2px solid #232a1d;
+  border-radius: 15px;
+  padding: 3px;
+}
+
+a:visited {
+  color: #ebf34e;
+}
+
+a {
+  text-decoration: none;
+  color: #ff4400;
+}
